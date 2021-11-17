@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<!--  -->
+
+<body>
+    <div class="openMenu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="animation-menu">
+        <form action="">
+
+            <div class="header">
+                <div class="main">
+                    Main menu
+                </div>
+                <div class="close"> <span class="minus">-</span></div>
+            </div>
+            <div class="menu-item">
+                <input type="number" class="dirsCount" placeholder="Number of directions">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="stepsToTurn" placeholder="Step to turn">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="doteSize" placeholder="Dot size">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="dotsCount" placeholder="Number of dots">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="dotVelocity" placeholder="dot Velocity">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="distance" placeholder="distance">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="gridAngle" placeholder="grid Angle">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="animationDurationY" placeholder="animationDurationY">
+            </div>
+            <div class="menu-item">
+                <input type="number" class="animationDurationX" placeholder="animationDurationX">
+
+            </div>
+            <div class="modechanger" id="randomiser">Random setings</div>
+            <div class="modes">
+                <div class="modechanger" id="filling">filling</div>
+                <div class="modechanger active" id="disappearing">disappearing</div>
+
+
+            </div>
+            <div class="modes">
+                <div class="modechanger" id="swinging">swinging</div>
+
+                <div class="modechanger" id="blinking">blinking</div>
+
+
+            </div>
+            <div class="submit">Submit</div>
+        </form>
+    </div>
+    <canvas></canvas>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
